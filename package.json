@@ -1,0 +1,24 @@
+{
+    "name": "pwa-text-editor",
+    "version": "1.0.0",
+    "description": "A browser-based text editor PWA",
+    "main": "server/server.js",
+    "scripts": {
+      "start": "npm run build && npm run server",
+      "server": "cd server && npm run start",
+      "build": "cd client && npm run build",
+      "install": "cd server && npm i && cd ../client && npm i",
+      "client": "cd client && npm start"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "express": "^4.17.1",
+      "if-env": "^1.0.4"
+    },
+    "devDependencies": {
+      "concurrently": "^5.2.0",
+      "nodemon": "^2.0.4"
+    }
+  }

@@ -1,4 +1,5 @@
 # PWA Text Editor
+<img width="720" alt="Screenshot 2024-07-16 at 12 41 17 PM" src="https://github.com/user-attachments/assets/d361656d-5a5a-49ef-b9b3-0745dac5a9d2">
 
 ## Description
 
